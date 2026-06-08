@@ -3,8 +3,12 @@
 ## Tổng Quan
 
 Xây dựng **RAG Chatbot** trả lời câu hỏi về **pháp luật ma tuý** và **tin tức nghệ sĩ liên quan**, kèm **Evaluation Pipeline** sử dụng RAGAS.
-
 ---
+## **Thành viên nhóm:**
+- Lâm Văn Tài - 2A202600938
+- Đặng Thị Thu Thảo - 2A202600685
+- Hà Kế Trung Đức - 2A202600594
+- Nguyễn Đăng Huy - 2A202600641
 
 ## Kiến Trúc Hệ Thống
 
@@ -160,13 +164,13 @@ python group_project/evaluation/eval_pipeline.py
 
 ## Phân Công Công Việc
 
-| Thành viên | MSSV | Nhiệm vụ | Trạng thái |
+| Thành viên | | Nhiệm vụ | Trạng thái |
 |-----------|------|----------|------------|
-| | | Task 1-3: Thu thập & xử lý dữ liệu | ✅ |
-| | | Task 4-6: Chunking, Indexing, Search | ✅ |
-| | | Task 7-8: Reranking, PageIndex | ✅ |
-| | | Task 9-10: Pipeline, Generation | ✅ |
-| | | Chatbot UI + Evaluation | ✅ |
+| Tài, Thảo, Huy, Đức| | Task 1-3: Thu thập & xử lý dữ liệu | ✅ |
+| Tài, Thảo, Huy, Đức | | Task 4-6: Chunking, Indexing, Search | ✅ |
+|Tài, Thảo, Huy, Đức |   | Task 7-8: Reranking, PageIndex | ✅ |
+| Tài, Thảo, Huy, Đức | | Task 9-10: Pipeline, Generation | ✅ |
+| Tài, Thảo, Huy, Đức| | Chatbot UI + Evaluation | ✅ |
 
 ---
 
