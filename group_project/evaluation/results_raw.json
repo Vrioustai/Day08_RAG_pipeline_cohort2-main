@@ -1,0 +1,346 @@
+{
+  "config_a": [
+    {
+      "id": "Q01",
+      "question": "Tội tàng trữ trái phép chất ma tuý theo Điều 248 bị phạt tù bao nhiêu năm?",
+      "category": "legal",
+      "answer": "Tội tàng trữ trái phép chất ma túy theo Điều 249 bị phạt tù từ 01 năm đến 05 năm nếu không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép chất ma túy và thuộc một trong các trường hợp quy định trong điều luật. Nếu người phạm tội tự nguyện phá bỏ hoặc giao nộp chất ma túy cho cơ quan chức năng trước khi bị phát hiện, có thể được miễn trách nhiệm hình sự [1][2].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q02",
+      "question": "Tội mua bán trái phép chất ma tuý bị xử lý thế nào theo pháp luật Việt Nam?",
+      "category": "legal",
+      "answer": "Tội mua bán trái phép chất ma túy được quy định tại Điều 251 của Bộ luật Hình sự Việt Nam. Người nào thực hiện hành vi này sẽ bị phạt tù từ 02 năm đến 20 năm, tùy thuộc vào mức độ nghiêm trọng của hành vi và các tình tiết tăng nặng. Ngoài ra, người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 500.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm, hoặc tịch thu một phần hoặc toàn bộ tài sản [Nguồn 1].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.6,
+      "context_precision": 0.5
+    },
+    {
+      "id": "Q03",
+      "question": "Cai nghiện ma tuý bắt buộc được áp dụng cho đối tượng nào?",
+      "category": "legal",
+      "answer": "Cai nghiện ma túy bắt buộc được áp dụng cho các đối tượng sau:\n\n1. Người nghiện ma túy từ đủ 18 tuổi trở lên, khi thuộc một trong các trường hợp quy định của Luật Xử lý vi phạm hành chính [1].\n2. Người nghiện ma túy từ đủ 12 tuổi đến dưới 18 tuổi, trong các trường hợp như không đăng ký, không thực hiện hoặc tự ý chấm dứt cai nghiện ma túy tự nguyện, hoặc trong thời gian cai nghiện tự nguyện bị phát hiện sử dụng trái phép [3].\n\nCơ quan công an có trách nhiệm phát hiện và đưa đối tượng vào cơ sở cai nghiện bắt buộc [2].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.75
+    },
+    {
+      "id": "Q04",
+      "question": "Thời hạn cai nghiện bắt buộc tại cơ sở cai nghiện là bao lâu?",
+      "category": "legal",
+      "answer": "Thời hạn cai nghiện ma túy bắt buộc tại cơ sở cai nghiện là từ đủ 12 tháng trở lên. Người nghiện ma túy sẽ phải chịu sự quản lý, giáo dục và điều trị của cơ sở cai nghiện trong thời gian này [1. 73luat.md]. Sau khi hoàn thành thời gian cai nghiện, họ sẽ tiếp tục chịu sự quản lý sau cai nghiện ma túy trong thời hạn 02 năm [3. 73luat.md].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.6,
+      "context_precision": 0.5
+    },
+    {
+      "id": "Q05",
+      "question": "Tội trồng cây thuốc phiện bị xử lý thế nào theo Điều 247?",
+      "category": "legal",
+      "answer": "Theo Điều 247, người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy sẽ bị xử lý hình sự nếu thuộc một trong các trường hợp quy định. Tuy nhiên, nếu người đó tự nguyện phá bỏ hoặc giao nộp cho cơ quan chức năng có thẩm quyền trước khi thu hoạch, thì có thể được miễn trách nhiệm hình sự [1].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q06",
+      "question": "Luật Phòng chống ma tuý 2021 quy định chất ma tuý là gì?",
+      "category": "legal",
+      "answer": "Luật Phòng chống ma túy 2021 quy định chất ma túy là các chất có khả năng gây nghiện, ảnh hưởng xấu đến sức khỏe con người và xã hội. Các chất này bao gồm thuốc phiện, cần sa, côca, và các loại cây khác có chứa chất ma túy do Chính phủ quy định. Ngoài ra, luật cũng đề cập đến các hành vi liên quan đến sản xuất, sử dụng trái phép chất ma túy, cũng như các hành vi bị nghiêm cấm khác liên quan đến ma túy [1. 73luat.md][4. 73luat.md].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q07",
+      "question": "Người sử dụng ma tuý có bị truy cứu trách nhiệm hình sự không?",
+      "category": "legal",
+      "answer": "Người sử dụng ma túy có thể không bị truy cứu trách nhiệm hình sự nếu hành vi của họ chưa đến mức hoặc không bị truy cứu trách nhiệm hình sự, theo quy định về tệ nạn ma túy. Tuy nhiên, nếu hành vi của họ vi phạm pháp luật về ma túy và đủ điều kiện để bị truy cứu trách nhiệm hình sự, thì họ có thể bị xử lý theo quy định của pháp luật. Cụ thể, việc sử dụng trái phép chất ma túy được coi là tệ nạn, nhưng không nhất thiết dẫn đến truy cứu trách nhiệm hình sự ngay lập tức [1. 73luat.md].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q08",
+      "question": "Tội vận chuyển trái phép chất ma tuý bị xử lý ra sao?",
+      "category": "legal",
+      "answer": "Tội vận chuyển trái phép chất ma túy bị xử lý theo Điều 250 của Bộ luật Hình sự. Người phạm tội có thể bị phạt tù từ 02 năm đến 07 năm, tùy thuộc vào mức độ nghiêm trọng của hành vi. Ngoài ra, người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 500.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm, hoặc tịch thu một phần hoặc toàn bộ tài sản [1].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.75
+    },
+    {
+      "id": "Q09",
+      "question": "Ca sĩ Chi Dân bị bắt vì lý do gì?",
+      "category": "news",
+      "answer": "Ca sĩ Chi Dân bị bắt vì có hành vi rủ rê và cung cấp ma túy, do đó phải chịu trách nhiệm hình sự về tội tổ chức sử dụng trái phép chất ma túy. Ngoài Chi Dân, nhiều người mẫu, diễn viên và ca sĩ khác cũng liên quan đến các vụ việc ma túy trong thời gian gần đây [Nguồn].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.6,
+      "context_precision": 0.5
+    },
+    {
+      "id": "Q10",
+      "question": "Ca sĩ Miu Lê bị bắt trong hoàn cảnh nào?",
+      "category": "news",
+      "answer": "Ca sĩ Miu Lê, tên thật là Lê Ánh Nhật, đã bị bắt vào ngày 16/5/2026 cùng với Vũ Khương An và Trần Minh Trang do bị cáo buộc tổ chức sử dụng trái phép chất ma túy. Vụ việc bắt đầu khi vào khoảng 12h30 ngày 10/5/2026, Công an đặc khu Cát Hải nhận được tin báo và kiểm tra tại bãi tắm Tùng Thu, phát hiện 6 người có hành vi sử dụng ma túy. Kết quả xét nghiệm cho thấy tất cả đều dương tính với chất ma túy. Trước đó, từ ngày 7/5, Vũ Khương An đã mời Miu Lê và một số người khác đến chơi, chuẩn bị ma túy tổng hợp để sử dụng [Nguồn].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q11",
+      "question": "Rapper Bình Gold có liên quan đến ma tuý như thế nào?",
+      "category": "news",
+      "answer": "Rapper Bình Gold, tên thật là Vũ Xuân Bình, đã bị phát hiện dương tính với ma túy, cụ thể là cần sa và bồ đà, trong một vụ việc xảy ra tại Lào Cai. Cảnh sát đã dừng xe của anh vào khoảng 22h và tiến hành kiểm tra, kết quả cho thấy anh có chất ma túy trong người. Sau đó, Bình Gold đã bị bàn giao cho cơ quan chức năng tỉnh Lào Cai để xử lý [2][3]. Ngoài ra, anh cũng đang bị tạm giữ tại Hà Nội để điều tra về nhiều cáo buộc khác, trong đó có việc cướp taxi [4].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q12",
+      "question": "Người mẫu Andrea Aybar bị bắt vì tội gì?",
+      "category": "news",
+      "answer": "Người mẫu Andrea Aybar (tên thật là Andrea Aybar Carmona) bị bắt vì hai tội: Tàng trữ trái phép chất ma túy và Tổ chức sử dụng trái phép chất ma túy. Cô cùng với trợ lý của mình đã bị phát hiện tổ chức \"tiệc ma túy\" trong một căn hộ cao cấp, cùng với 225 người khác trong vụ án này. Andrea Aybar khai rằng cô bắt đầu sử dụng ma túy từ năm 2020 và thường liên hệ mua ma túy từ một người quen với giá từ 500.000 đồng đến một triệu đồng mỗi lần [Nguồn 2][Nguồn 4].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q13",
+      "question": "Ca sĩ Long Nhật và Sơn Ngọc Minh bị bắt vì lý do gì?",
+      "category": "news",
+      "answer": "Ca sĩ Long Nhật và Sơn Ngọc Minh bị bắt vì liên quan đến hành vi tổ chức sử dụng trái phép chất ma túy. Cụ thể, Long Nhật khai nhận đã tổ chức sử dụng ma túy đá cùng với người giúp việc và một người em đến chơi. Trong khi đó, Sơn Ngọc Minh cũng thừa nhận sử dụng ma túy đá và cho biết chỉ mới bắt đầu sử dụng từ trước Tết đến nay. Ngoài hai ca sĩ này, gần 70 người khác cũng bị bắt về các tội danh liên quan đến ma túy, bao gồm mua bán và tàng trữ trái phép chất ma túy [Nguồn].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.9,
+      "context_precision": 0.8
+    },
+    {
+      "id": "Q14",
+      "question": "Tại sao cùng sử dụng ma tuý có người đi tù, có người không?",
+      "category": "mixed",
+      "answer": "Việc có người đi tù và người không trong các vụ sử dụng ma túy thường phụ thuộc vào vai trò và hành vi của từng cá nhân trong vụ việc. Trong trường hợp của Chi Dân, anh cùng anh trai đã có hành vi rủ rê và tổ chức cho nhóm người sử dụng ma túy, do đó phải chịu trách nhiệm hình sự về tội Tổ chức sử dụng trái phép chất ma túy [1][2]. Ngược lại, nếu một người chỉ tham gia sử dụng mà không có hành vi tổ chức hay rủ rê, họ có thể không bị truy cứu trách nhiệm hình sự, tùy thuộc vào các yếu tố khác như mức độ vi phạm và các tình tiết giảm nhẹ [3].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.75
+    },
+    {
+      "id": "Q15",
+      "question": "Cai nghiện tự nguyện tại gia đình kéo dài bao lâu?",
+      "category": "legal",
+      "answer": "Cai nghiện ma túy tự nguyện tại gia đình, cộng đồng có thời hạn từ đủ 06 tháng đến 12 tháng [1]. Người cai nghiện cần hoàn thành ít nhất 03 giai đoạn quy định tại các điểm a, b và c khoản 1 Điều 29 của Luật Phòng, chống ma túy [1]. Trong thời gian này, nếu người cai nghiện tự ý chấm dứt việc sử dụng dịch vụ, họ phải thông báo cho Ủy ban nhân dân cấp xã nơi đã đăng ký cai nghiện trong vòng 05 ngày làm việc [3].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.75
+    },
+    {
+      "id": "Q16",
+      "question": "Tội sản xuất trái phép chất ma tuý bị xử lý thế nào?",
+      "category": "legal",
+      "answer": "Tội sản xuất trái phép chất ma túy bị xử lý theo Điều 248 của Bộ luật Hình sự. Người nào sản xuất trái phép chất ma túy dưới bất kỳ hình thức nào sẽ bị phạt tù từ 01 năm đến 05 năm, tùy thuộc vào mức độ vi phạm và các tình tiết liên quan [Nguồn 2]. Nếu người phạm tội đã bị xử phạt vi phạm hành chính về hành vi này hoặc đã bị kết án trước đó, mức phạt có thể tăng nặng hơn [Nguồn 3]. Ngoài ra, nếu người phạm tội tự nguyện giao nộp chất ma túy cho cơ quan chức năng trước khi thu hoạch, họ có thể được miễn trách nhiệm hình sự [Nguồn 1].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q17",
+      "question": "Trong ngành giải trí Việt Nam, những ai đã bị liên quan đến vụ án ma tuý gần đây?",
+      "category": "mixed",
+      "answer": "Trong ngành giải trí Việt Nam, gần đây có một số ca sĩ bị liên quan đến vụ án ma túy. Cụ thể, ca sĩ Long Nhật và Sơn Ngọc Minh đã bị bắt vì hành vi tổ chức sử dụng trái phép chất ma túy vào ngày 20/5 [Nguồn 1]. Ngoài ra, ca sĩ Chi Dân cũng bị nêu tên trong một vụ án khác liên quan đến tổ chức sử dụng trái phép chất ma túy cùng với anh trai [Nguồn 2]. Ca sĩ Miu Lê cũng bị khởi tố và bắt tạm giam vì hành vi tương tự [Nguồn 3].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.9,
+      "context_precision": 0.85
+    }
+  ],
+  "config_b": [
+    {
+      "id": "Q01",
+      "question": "Tội tàng trữ trái phép chất ma tuý theo Điều 248 bị phạt tù bao nhiêu năm?",
+      "category": "legal",
+      "answer": "Tội tàng trữ trái phép chất ma túy theo Điều 249 bị phạt tù từ 01 năm đến 05 năm nếu không nhằm mục đích mua bán, vận chuyển, sản xuất trái phép chất ma túy và thuộc một trong các trường hợp quy định. Ngoài ra, người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 500.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm hoặc tịch thu một phần hoặc toàn bộ tài sản [1][2].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q02",
+      "question": "Tội mua bán trái phép chất ma tuý bị xử lý thế nào theo pháp luật Việt Nam?",
+      "category": "legal",
+      "answer": "Tội mua bán trái phép chất ma túy theo pháp luật Việt Nam bị xử lý rất nghiêm khắc. Người phạm tội có thể bị phạt tù từ 2 năm đến 7 năm, tùy thuộc vào khối lượng chất ma túy và các tình tiết tăng nặng khác. Ngoài ra, người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 500.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm, hoặc tịch thu một phần hoặc toàn bộ tài sản [1. cac-toi-pham-ve-ma-tuy-chuong-xx.md].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q03",
+      "question": "Cai nghiện ma tuý bắt buộc được áp dụng cho đối tượng nào?",
+      "category": "legal",
+      "answer": "Cai nghiện ma túy bắt buộc được áp dụng cho những người từ đủ 18 tuổi trở lên khi họ vi phạm pháp luật và thuộc diện xử lý hành chính theo quy định của Luật Xử lý vi phạm hành chính. Ngoài ra, đối với người từ đủ 14 tuổi đến dưới 18 tuổi, nếu họ đang cai nghiện mà bị phát hiện thực hiện hành vi phạm tội trước hoặc trong thời gian chấp hành quyết định cai nghiện, họ cũng có thể bị xử lý theo quy định pháp luật, nhưng có thể được miễn chấp hành hình phạt tù nếu không được hưởng án treo [1][2].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.9,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q04",
+      "question": "Thời hạn cai nghiện bắt buộc tại cơ sở cai nghiện là bao lâu?",
+      "category": "legal",
+      "answer": "Thời hạn cai nghiện ma túy bắt buộc đối với người nghiện ma túy là từ đủ 12 tháng trở lên, tùy thuộc vào từng trường hợp cụ thể [1]. Sau khi hoàn thành thời gian cai nghiện, người nghiện sẽ chịu sự quản lý sau cai nghiện trong thời hạn 02 năm [3].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q05",
+      "question": "Tội trồng cây thuốc phiện bị xử lý thế nào theo Điều 247?",
+      "category": "legal",
+      "answer": "Theo Điều 247, người nào trồng cây thuốc phiện, cây côca, cây cần sa hoặc các loại cây khác có chứa chất ma túy sẽ bị xử lý nếu thuộc một trong các trường hợp sau: đã bị xử phạt vi phạm hành chính hoặc đã bị kết án về tội này mà chưa được xóa án tích; hoặc nếu khối lượng nhựa thuốc phiện, nhựa cần sa hoặc cao côca từ 01 gam đến dưới 500 gam; hoặc nếu khối lượng hêrôin, côcain, Methamphetamine, Amphetamine, MDMA từ 0,1 gam đến dưới 05 gam. Hình phạt cụ thể sẽ tùy thuộc vào mức độ vi phạm [Nguồn].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q06",
+      "question": "Luật Phòng chống ma tuý 2021 quy định chất ma tuý là gì?",
+      "category": "legal",
+      "answer": "Luật Phòng chống ma túy 2021 quy định chất ma túy bao gồm các chất được quy định tại các khoản 2, 3 và 4 của Điều 1, trong đó có thuốc thú y chứa chất ma túy và tiền chất. Ngoài ra, cây có chứa chất ma túy cũng được xác định, bao gồm cây thuốc phiện, cây côca, cây cần sa và các loại cây khác do Chính phủ quy định [1][2]. Luật này nhằm mục đích phòng, chống ma túy và quản lý người sử dụng trái phép chất ma túy [2].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.7,
+      "context_precision": 0.6
+    },
+    {
+      "id": "Q07",
+      "question": "Người sử dụng ma tuý có bị truy cứu trách nhiệm hình sự không?",
+      "category": "legal",
+      "answer": "Người sử dụng trái phép chất ma túy có thể bị truy cứu trách nhiệm hình sự nếu hành vi của họ vi phạm các quy định pháp luật liên quan đến ma túy. Theo tài liệu, người sử dụng trái phép chất ma túy có trách nhiệm cung cấp đầy đủ, chính xác thông tin về hành vi của mình [1]. Nếu hành vi này liên quan đến việc sản xuất, buôn bán hoặc tàng trữ ma túy, họ có thể bị truy cứu trách nhiệm hình sự theo quy định của pháp luật [3]. Tuy nhiên, nếu chỉ sử dụng ma túy mà không có các hành vi vi phạm khác, có thể không bị truy cứu trách nhiệm hình sự, nhưng vẫn phải chịu các biện pháp quản lý và giáo dục từ gia đình và cơ quan chức năng [1].",
+      "faithfulness": 0.7,
+      "answer_relevancy": 0.9,
+      "context_recall": 0.6,
+      "context_precision": 0.5
+    },
+    {
+      "id": "Q08",
+      "question": "Tội vận chuyển trái phép chất ma tuý bị xử lý ra sao?",
+      "category": "legal",
+      "answer": "Tội vận chuyển trái phép chất ma túy được quy định tại Điều 250 của Bộ luật Hình sự. Người nào vận chuyển trái phép chất ma túy có thể bị phạt tù từ 02 năm đến 07 năm, tùy thuộc vào khối lượng và tính chất của chất ma túy. Ngoài ra, người phạm tội còn có thể bị phạt tiền từ 5.000.000 đồng đến 500.000.000 đồng, cấm đảm nhiệm chức vụ, cấm hành nghề hoặc làm công việc nhất định từ 01 năm đến 05 năm, hoặc tịch thu một phần hoặc toàn bộ tài sản [2][3].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.7
+    },
+    {
+      "id": "Q09",
+      "question": "Ca sĩ Chi Dân bị bắt vì lý do gì?",
+      "category": "news",
+      "answer": "Ca sĩ Chi Dân bị bắt vì có hành vi rủ rê và cung cấp ma túy, do đó phải chịu trách nhiệm hình sự về tội tổ chức sử dụng trái phép chất ma túy. Đây là một phần trong cuộc điều tra mở rộng liên quan đến nhiều người mẫu, diễn viên và ca sĩ khác cũng bị liên quan đến ma túy [Nguồn].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.6,
+      "context_precision": 0.5
+    },
+    {
+      "id": "Q10",
+      "question": "Ca sĩ Miu Lê bị bắt trong hoàn cảnh nào?",
+      "category": "news",
+      "answer": "Ca sĩ Miu Lê, tên thật là Lê Ánh Nhật, đã bị bắt vào ngày 16/5 bởi Cơ quan CSĐT Công an thành phố Hải Phòng. Cô cùng với Vũ Khương An bị khởi tố và tạm giam vì hành vi tổ chức sử dụng trái phép chất ma túy. Ngoài ra, một người khác tên Trần Minh Trang cũng bị liên quan đến vụ việc này [Nguồn].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "Q11",
+      "question": "Rapper Bình Gold có liên quan đến ma tuý như thế nào?",
+      "category": "news",
+      "answer": "Rapper Bình Gold, tên thật là Vũ Xuân Bình, đã bị tạm giữ để điều tra về nhiều cáo buộc, trong đó có việc dương tính với ma túy. Vào ngày 26/7, anh đã bị bắt khi cướp taxi tại Hà Nội và trong quá trình điều tra, kết quả xét nghiệm cho thấy anh có sử dụng ma túy. Bình Gold, 28 tuổi, nổi tiếng từ năm 2019 với các bài rap mô tả cuộc sống xa hoa, nhưng cũng bị chỉ trích vì ca từ không phù hợp, gây ảnh hưởng xấu đến người xem, đặc biệt là trẻ em [Nguồn].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q12",
+      "question": "Người mẫu Andrea Aybar bị bắt vì tội gì?",
+      "category": "news",
+      "answer": "Người mẫu Andrea Aybar (29 tuổi, tên tiếng Việt là Nguyễn Thị An) bị bắt về hai tội danh: tàng trữ trái phép chất ma túy và tổ chức sử dụng trái phép chất ma túy. Cô cùng với trợ lý của mình, Văn Anh Duy, đã bị truy tố trong một vụ án liên quan đến việc tổ chức tiệc ma túy tại căn hộ cao cấp, trong đó có sự tham gia của 225 người khác. Vụ việc này đã được Công an TP HCM phát hiện và điều tra [Nguồn].",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_recall": 1.0,
+      "context_precision": 1.0
+    },
+    {
+      "id": "Q13",
+      "question": "Ca sĩ Long Nhật và Sơn Ngọc Minh bị bắt vì lý do gì?",
+      "category": "news",
+      "answer": "Ca sĩ Long Nhật và Sơn Ngọc Minh bị bắt vì liên quan đến hành vi tổ chức sử dụng trái phép chất ma túy. Cụ thể, Long Nhật khai nhận đã tổ chức sử dụng ma túy đá cùng với người giúp việc và một người em đến chơi tại nhà. Vụ bắt giữ diễn ra trong bối cảnh Công an TP HCM thực hiện đợt cao điểm rà soát và xử lý các điểm phức tạp về an ninh trật tự [Nguồn].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q14",
+      "question": "Tại sao cùng sử dụng ma tuý có người đi tù, có người không?",
+      "category": "mixed",
+      "answer": "Cùng sử dụng ma túy nhưng có người đi tù, có người không là do sự khác biệt trong hành vi và vai trò của từng người trong vụ việc. Theo quy định, người sử dụng trái phép chất ma túy không bị xử lý hình sự nếu không có hành vi tổ chức, cung cấp ma túy hoặc không thuộc trường hợp bị quản lý theo luật. Ví dụ, trong trường hợp của ca sĩ Chi Dân, anh và anh trai đã có hành vi rủ rê và cung cấp ma túy cho nhóm người khác, do đó phải chịu trách nhiệm hình sự về tội tổ chức sử dụng trái phép chất ma túy [Nguồn 4]. Ngược lại, những người chỉ tham gia sử dụng mà không có hành vi tổ chức có thể không bị xử lý hình sự [Nguồn 1].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.7
+    },
+    {
+      "id": "Q15",
+      "question": "Cai nghiện tự nguyện tại gia đình kéo dài bao lâu?",
+      "category": "legal",
+      "answer": "Cai nghiện ma túy tự nguyện tại gia đình, cộng đồng có thời hạn từ đủ 06 tháng đến 12 tháng. Người cai nghiện cần hoàn thành ít nhất 03 giai đoạn quy định tại các điểm a, b và c khoản 1 Điều 29 của Luật Phòng, chống ma túy. Thời gian cai nghiện này được thực hiện với sự hỗ trợ chuyên môn của tổ chức, cá nhân có thẩm quyền [1][2].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.9,
+      "context_precision": 0.85
+    },
+    {
+      "id": "Q16",
+      "question": "Tội sản xuất trái phép chất ma tuý bị xử lý thế nào?",
+      "category": "legal",
+      "answer": "Tội sản xuất trái phép chất ma túy được quy định tại Điều 248 của Bộ luật Hình sự. Người nào sản xuất trái phép chất ma túy dưới bất kỳ hình thức nào sẽ bị xử lý hình sự. Nếu người phạm tội tự nguyện phá bỏ hoặc giao nộp chất ma túy cho cơ quan chức năng trước khi thu hoạch, họ có thể được miễn trách nhiệm hình sự [1]. Mức phạt tù cho hành vi này có thể từ 01 năm đến 05 năm, tùy thuộc vào các tình tiết cụ thể của vụ án [2].",
+      "faithfulness": 0.9,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.8,
+      "context_precision": 0.75
+    },
+    {
+      "id": "Q17",
+      "question": "Trong ngành giải trí Việt Nam, những ai đã bị liên quan đến vụ án ma tuý gần đây?",
+      "category": "mixed",
+      "answer": "Trong ngành giải trí Việt Nam, ca sĩ Chi Dân (36 tuổi) và anh trai Nguyễn Trung Tín (44 tuổi) đã bị liên quan đến vụ án ma túy, với hành vi tổ chức sử dụng trái phép chất ma túy. Vụ việc đã được Công an TP HCM chuyển sang VKS đề nghị truy tố [1. article_01.md]. Ngoài ra, ca sĩ Miu Lê (Lê Ánh Nhật, 35 tuổi) cùng Vũ Khương An (31 tuổi) cũng bị khởi tố và bắt tạm giam về hành vi tổ chức sử dụng trái phép chất ma túy [3. article_02.md].",
+      "faithfulness": 0.8,
+      "answer_relevancy": 1.0,
+      "context_recall": 0.9,
+      "context_precision": 0.7
+    }
+  ]
+}

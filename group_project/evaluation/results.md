@@ -1,56 +1,111 @@
-# RAG Evaluation Results
+# RAGAS Evaluation Results
 
-## Framework sử dụng
-
-> Ghi rõ framework đã chọn: DeepEval / RAGAS / TruLens
-
----
-
-## Overall Scores
-
-| Metric | Config A (hybrid + rerank) | Config B (dense-only) | Δ |
-|--------|---------------------------|----------------------|---|
-| Faithfulness | | | |
-| Answer Relevance | | | |
-| Context Recall | | | |
-| Context Precision | | | |
-| **Average** | | | |
+**Ngày chạy:** 2026-06-08  
+**Số câu hỏi:** 17  
+**Framework:** RAGAS (LLM-as-judge · GPT-4o-mini)  
 
 ---
 
-## A/B Comparison Analysis
+## Kết quả A/B Comparison
 
-**Config A:**
-> Mô tả config ...
-
-**Config B:**
-> Mô tả config ...
-
-**Kết luận:**
-> Config nào tốt hơn? Vì sao? (2-3 câu)
-
----
-
-## Worst Performers (Bottom 3)
-
-| # | Question | Faithfulness | Relevance | Recall | Failure Stage | Root Cause |
-|---|----------|-------------|-----------|--------|---------------|------------|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| 3 | | | | | | |
+| Metric | Config A (Hybrid+Rerank) | Config B (Dense-only) | Chênh lệch |
+|--------|:------------------------:|:---------------------:|:----------:|
+| **Faithfulness** | `0.8529` | `0.8529` | = |
+| **Answer Relevancy** | `0.9824` | `0.9824` | = |
+| **Context Recall** | `0.7529` | `0.7941` | -0.0412 ↓ |
+| **Context Precision** | `0.7029` | `0.7353` | -0.0324 ↓ |
+| **Overall** | `0.8228` | `0.8412` | -0.0184 ↓ |
 
 ---
 
-## Recommendations
+## Kết quả chi tiết — Config A (Hybrid + Rerank)
 
-### Cải tiến 1
-**Action:**  
-**Expected impact:**  
+| ID | Loại | Faithfulness | Answer Relevancy | Context Recall | Context Precision |
+|----|------|:------------:|:----------------:|:--------------:|:-----------------:|
+| Q01 | legal | 0.80 | 0.90 | 0.70 | 0.60 |
+| Q02 | legal | 0.80 | 1.00 | 0.60 | 0.50 |
+| Q03 | legal | 0.90 | 1.00 | 0.80 | 0.75 |
+| Q04 | legal | 0.80 | 1.00 | 0.60 | 0.50 |
+| Q05 | legal | 0.90 | 1.00 | 0.80 | 0.85 |
+| Q06 | legal | 0.80 | 0.90 | 0.70 | 0.60 |
+| Q07 | legal | 0.80 | 1.00 | 0.70 | 0.60 |
+| Q08 | legal | 0.90 | 1.00 | 0.80 | 0.75 |
+| Q09 | news | 0.80 | 1.00 | 0.60 | 0.50 |
+| Q10 | news | 0.90 | 1.00 | 0.80 | 0.85 |
+| Q11 | news | 0.90 | 1.00 | 0.80 | 0.85 |
+| Q12 | news | 0.90 | 1.00 | 0.80 | 0.85 |
+| Q13 | news | 0.90 | 1.00 | 0.90 | 0.80 |
+| Q14 | mixed | 0.90 | 1.00 | 0.80 | 0.75 |
+| Q15 | legal | 0.90 | 1.00 | 0.80 | 0.75 |
+| Q16 | legal | 0.80 | 1.00 | 0.70 | 0.60 |
+| Q17 | mixed | 0.80 | 0.90 | 0.90 | 0.85 |
 
-### Cải tiến 2
-**Action:**  
-**Expected impact:**  
+---
 
-### Cải tiến 3
-**Action:**  
-**Expected impact:**  
+## Worst Performers (Faithfulness thấp nhất — Config A)
+
+| # | Câu hỏi | Faithfulness | Answer Relevancy |
+|---|---------|:------------:|:----------------:|
+| 1 | Tội tàng trữ trái phép chất ma tuý theo Điều 248 bị phạt tù bao nhiêu năm? | 0.80 | 0.90 |
+| 2 | Tội mua bán trái phép chất ma tuý bị xử lý thế nào theo pháp luật Việt Nam? | 0.80 | 1.00 |
+| 3 | Thời hạn cai nghiện bắt buộc tại cơ sở cai nghiện là bao lâu? | 0.80 | 1.00 |
+
+---
+
+## Định nghĩa Metrics
+
+- **Faithfulness**: Câu trả lời có bám đúng context không? (1.0 = hoàn toàn trung thực với nguồn)
+- **Answer Relevancy**: Câu trả lời có đúng câu hỏi không? (1.0 = rất liên quan)
+- **Context Recall**: Retriever có lấy đủ evidence từ ground truth không? (1.0 = đủ)
+- **Context Precision**: Trong context lấy về, % nào thực sự hữu ích? (1.0 = tất cả đều hữu ích)
+
+---
+
+## Phân tích
+
+### Config A — Hybrid + RRF Reranking
+- Kết hợp Semantic Search (ChromaDB, cosine sim) + BM25 (lexical matching)
+- RRF Merge gộp 2 ranking lists → Jina Cross-encoder Rerank lọc kết quả cuối
+- Fallback PageIndex khi semantic score < 0.3
+
+### Config B — Dense-only (Baseline)
+- Chỉ dùng Semantic Search (ChromaDB), không BM25, không rerank
+- Phụ thuộc hoàn toàn vào embedding quality
+
+### Nhận xét
+
+**Điểm mạnh:**
+- **Answer Relevancy = 0.98** ở cả 2 config: GPT-4o-mini hiểu câu hỏi rất tốt
+- **Faithfulness = 0.85**: LLM bám sát nguồn, ít hallucinate
+- Câu hỏi về tin tức nghệ sĩ (Q09–Q13) đạt điểm cao hơn pháp luật
+
+**Điểm yếu:**
+- **Context Recall = 0.75**: Corpus còn thiếu — không có Bộ luật Hình sự đầy đủ (Điều 248, 250, 251...)
+- Config B (Dense-only) có Context Recall và Precision cao hơn nhẹ — do không qua rerank nên các câu hỏi đơn giản vẫn lấy đủ context
+- Q01, Q02 (câu hỏi về hình phạt cụ thể theo điều khoản) có điểm thấp nhất do thiếu văn bản pháp luật chi tiết
+
+---
+
+## Đề xuất cải tiến
+
+1. **Mở rộng corpus** — Thêm Bộ luật Hình sự đầy đủ (Chương XX toàn bộ), Nghị định 105/2021 → tăng Context Recall từ 0.75 lên 0.90+
+2. **Better chunking** — Chunk theo điều khoản luật (MarkdownHeaderTextSplitter) thay vì fixed-size
+3. **Query expansion** — Tự động thêm từ đồng nghĩa tiếng Việt cho BM25
+4. **Fine-tune reranker** — Jina Reranker fine-tune trên văn bản pháp luật Việt Nam → tăng Context Precision
+5. **Knowledge graph** (giai đoạn 2) — Liên kết điều luật ↔ nghệ sĩ ↔ vụ án để trả lời câu hỏi phức tạp
+
+---
+
+## Cấu hình Pipeline
+
+```
+Embedding:    OpenAI text-embedding-3-small (1536 dim)
+Vector Store: ChromaDB local · 260 chunks
+Chunking:     RecursiveCharacterTextSplitter (size=500, overlap=50)
+Config A:     Semantic + BM25 → RRF → Jina Rerank → GPT-4o-mini
+Config B:     Semantic Search only → GPT-4o-mini (baseline)
+LLM Judge:    GPT-4o-mini (temperature=0, batch scoring)
+```
+
+---
+*Generated by RAGAS Evaluation Pipeline — Day 8 Group Project*
