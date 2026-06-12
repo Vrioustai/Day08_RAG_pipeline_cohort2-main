@@ -21,8 +21,6 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-JINA_API_KEY = os.getenv("JINA_API_KEY", "")
-
 
 # =============================================================================
 # Cross-encoder: Jina Reranker API
@@ -44,13 +42,14 @@ def rerank_cross_encoder(
     """
     import requests
 
-    if not JINA_API_KEY:
-        raise ValueError("JINA_API_KEY chưa được set trong .env")
+    jina_key = os.getenv("JINA_API_KEY", "")
+    if not jina_key:
+        raise ValueError("JINA_API_KEY chưa được set (vui lòng nhập trong UI hoặc env)")
 
     response = requests.post(
         "https://api.jina.ai/v1/rerank",
         headers={
-            "Authorization": f"Bearer {JINA_API_KEY}",
+            "Authorization": f"Bearer {jina_key}",
             "Content-Type": "application/json",
         },
         json={
@@ -147,7 +146,7 @@ def rerank(
         List of top_k reranked candidates, sorted by score descending.
     """
     if method == "auto":
-        method = "cross_encoder" if JINA_API_KEY else "rrf"
+        method = "cross_encoder" if os.getenv("JINA_API_KEY") else "rrf"
 
     if method == "cross_encoder":
         return rerank_cross_encoder(query, candidates, top_k)

@@ -140,6 +140,18 @@ with tab_chat:
         st.markdown("**🔧 Pipeline**")
         st.code("Semantic\n+ BM25\n→ RRF\n→ Jina\n→ GPT-4o", language=None)
         st.divider()
+        st.markdown("**🔑 API Keys (User)**")
+        # Allow users to input API keys at runtime (stored in session only)
+        openai_key_input = st.text_input("OpenAI API key (optional)", value=st.session_state.get("openai_key", ""), type="password")
+        jina_key_input = st.text_input("Jina API key (optional)", value=st.session_state.get("jina_key", ""), type="password")
+        if st.button("Apply API keys", use_container_width=True):
+            if openai_key_input:
+                os.environ["OPENAI_API_KEY"] = openai_key_input
+                st.session_state["openai_key"] = openai_key_input
+            if jina_key_input:
+                os.environ["JINA_API_KEY"] = jina_key_input
+                st.session_state["jina_key"] = jina_key_input
+            st.success("API keys applied for this session")
         if st.button("🗑️ Xoá lịch sử", use_container_width=True):
             st.session_state.messages = []
             st.rerun()
@@ -188,6 +200,12 @@ with tab_chat:
             with st.chat_message("assistant", avatar="⚖️"):
                 with st.spinner("Đang tìm kiếm..."):
                     try:
+                        # Ensure any user-provided API keys in session are applied to environment
+                        if st.session_state.get("openai_key"):
+                            os.environ["OPENAI_API_KEY"] = st.session_state.get("openai_key")
+                        if st.session_state.get("jina_key"):
+                            os.environ["JINA_API_KEY"] = st.session_state.get("jina_key")
+
                         result = load_pipeline()(user_input)
                         answer, sources = result["answer"], result["sources"]
                     except Exception as e:
